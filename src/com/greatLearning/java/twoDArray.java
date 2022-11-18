@@ -13,9 +13,10 @@ public class twoDArray {
                 arr[i][j] = sc.nextInt();
             }
         }
-        for(int i=0;i<=m-1;i++){
-            for(int j=0;j<=n-1;j++){
-                System.out.print(arr[i][j]+" ");
+        sc.close();
+        for(int i=0;i<=m-1;i++) {
+            for (int j = 0; j <= n - 1; j++) {
+                System.out.print(arr[i][j] + " ");
             }
             System.out.println();
         }
